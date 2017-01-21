@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: adeecde45cbf9476da54ecf9ae0faa3d
+timeCreated: 1485018536
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Block01
+    100002: CircleDoor
+    100004: CircleFloor
+    100006: CircleWall
+    100008: ControlRoom
+    100010: Door1
+    100012: Door1 1
+    100014: Door2
+    100016: Door2 1
+    100018: DoorGroup0
+    100020: DoorWall1
+    100022: DoorWall1 1
+    100024: DoorWall2
+    100026: DoorWall2 1
+    100028: //RootNode
+    100030: Floor01
+    100032: Floor02
+    100034: Floor03
+    100036: KeyBox
+    100038: Level
+    100040: Wall01
+    100042: Wall02
+    100044: Wall03
+    100046: Wall04
+    100048: Wall05
+    100050: Wall06
+    400000: Block01
+    400002: CircleDoor
+    400004: CircleFloor
+    400006: CircleWall
+    400008: ControlRoom
+    400010: Door1
+    400012: Door1 1
+    400014: Door2
+    400016: Door2 1
+    400018: DoorGroup0
+    400020: DoorWall1
+    400022: DoorWall1 1
+    400024: DoorWall2
+    400026: DoorWall2 1
+    400028: //RootNode
+    400030: Floor01
+    400032: Floor02
+    400034: Floor03
+    400036: KeyBox
+    400038: Level
+    400040: Wall01
+    400042: Wall02
+    400044: Wall03
+    400046: Wall04
+    400048: Wall05
+    400050: Wall06
+    2300000: Block01
+    2300002: CircleFloor
+    2300004: CircleWall
+    2300006: Door1
+    2300008: Door1 1
+    2300010: Door2
+    2300012: Door2 1
+    2300014: DoorWall1
+    2300016: DoorWall1 1
+    2300018: DoorWall2
+    2300020: DoorWall2 1
+    2300022: Floor01
+    2300024: Floor02
+    2300026: Floor03
+    2300028: KeyBox
+    2300030: Wall01
+    2300032: Wall02
+    2300034: Wall03
+    2300036: Wall04
+    2300038: Wall05
+    2300040: Wall06
+    3300000: Block01
+    3300002: CircleFloor
+    3300004: CircleWall
+    3300006: Door1
+    3300008: Door1 1
+    3300010: Door2
+    3300012: Door2 1
+    3300014: DoorWall1
+    3300016: DoorWall1 1
+    3300018: DoorWall2
+    3300020: DoorWall2 1
+    3300022: Floor01
+    3300024: Floor02
+    3300026: Floor03
+    3300028: KeyBox
+    3300030: Wall01
+    3300032: Wall02
+    3300034: Wall03
+    3300036: Wall04
+    3300038: Wall05
+    3300040: Wall06
+    4300000: KeyBox
+    4300002: Door1
+    4300004: Door2
+    4300006: DoorWall2
+    4300008: DoorWall1
+    4300010: CircleWall
+    4300012: CircleFloor
+    4300014: Wall06
+    4300016: Wall05
+    4300018: Wall04
+    4300020: Wall03
+    4300022: Wall02
+    4300024: Wall01
+    4300026: Floor03
+    4300028: Block01
+    4300030: Floor02
+    4300032: Floor01
+    4300034: Door1
+    4300036: Door2
+    4300038: DoorWall2
+    4300040: DoorWall1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

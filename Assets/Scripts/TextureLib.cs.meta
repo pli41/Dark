@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0dd7727cb819645aa9fc8142551727e8
+timeCreated: 1485022701
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - metalWall: {fileID: 21300000, guid: 77b15d31a025145c2981e36fc6958f70, type: 3}
+  - metalFloor: {fileID: 21300000, guid: 77b15d31a025145c2981e36fc6958f70, type: 3}
+  - stoneWall: {fileID: 21300000, guid: 2a950937b1b8d419580ee776209b4ea2, type: 3}
+  - stoneFloor: {fileID: 21300000, guid: 2a950937b1b8d419580ee776209b4ea2, type: 3}
+  - blood: {instanceID: 0}
+  - water: {instanceID: 0}
+  - woodDoor: {fileID: 21300000, guid: 392dbe59000ea479ab3247705d167f51, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
