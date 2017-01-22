@@ -62,12 +62,16 @@ public class Triggers : MonoBehaviour {
                 case 6:
                     Trigger5(false);
                     break;
+                case 7:
+                    Trigger7();
+                    break;
             }
         }
     }
 
     void Trigger1()
     {
+        WaveDetectionSystem.lightningReady = true;
         aud.PlayOneShot(SoundLib.Find("shouldBeAKey"));
         trigger2.SetActive(true);
         trigger3.SetActive(true);
@@ -95,16 +99,27 @@ public class Triggers : MonoBehaviour {
 
     void Trigger4()
     {
-        boy4.SetActive(false);
+        boy4.SetActive(true);
         boy42.SetActive(true);
         gameObject.SetActive(false);
+        WaveDetectionSystem.lightningReady = true;
     }
 
     void Trigger5(bool state)
     {
         if (state)
+        {
+            WaveDetectionSystem.lightningReady = true;
             aud.PlayOneShot(SoundLib.Find("never"));
+        }
+            
         boy51.SetActive(state);
         boy52.SetActive(state);
+    }
+
+    void Trigger7()
+    {
+        boy4.SetActive(false);
+        
     }
 }

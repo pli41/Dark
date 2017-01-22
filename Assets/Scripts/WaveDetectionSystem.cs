@@ -10,12 +10,15 @@ public class WaveDetectionSystem : MonoBehaviour {
 	public float detectionRange;
 	public bool detectionReady;
     public float detectTime;
+    public static bool lightningReady;
 
     bool detecting;
 	Transform cameraTrans;
     string textureName;
     Sprite objectSprite;
     AudioSource aud;
+    AudioSource aud1;
+    AudioSource[] auds;
 
     [Header("UI")]
     public Text distanceUI;
@@ -26,7 +29,9 @@ public class WaveDetectionSystem : MonoBehaviour {
 	void Start () {
         cameraTrans = transform.Find ("MainCamera");
         StartCoroutine("WaitForDetection");
-        aud = GetComponent<AudioSource>();
+        auds = GetComponents<AudioSource>();
+        aud = auds[0];
+        aud1 = auds[1];
 	}
 	
 	// Update is called once per frame
@@ -63,6 +68,10 @@ public class WaveDetectionSystem : MonoBehaviour {
 
         detecting = true;
         aud.PlayOneShot(SoundLib.Find("sendWave"));
+        if (lightningReady) {
+            aud.PlayOneShot(SoundLib.Find("thunder"));
+            lightningReady = false;
+        }
 
         float t = 0;
         RenderSettings.fogEndDistance = 0.1f;

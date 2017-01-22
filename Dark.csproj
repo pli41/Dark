@@ -91,6 +91,7 @@
     <Compile Include="Assets\AI\Actions\MonsterAttack.cs" />
     <Compile Include="Assets\AI\Actions\playFootstep.cs" />
     <Compile Include="Assets\Scripts\DeadBody.cs" />
+    <Compile Include="Assets\Scripts\Ending.cs" />
     <Compile Include="Assets\Scripts\ExitSign.cs" />
     <Compile Include="Assets\Scripts\FinalDoor.cs" />
     <Compile Include="Assets\Scripts\FootStep.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Assets\Scripts\Switch.cs" />
     <Compile Include="Assets\Scripts\SwitchDoor.cs" />
     <Compile Include="Assets\Scripts\TextureLib.cs" />
+    <Compile Include="Assets\Scripts\TitleScene.cs" />
     <Compile Include="Assets\Scripts\Triggers.cs" />
     <Compile Include="Assets\Scripts\Vent.cs" />
     <Compile Include="Assets\Scripts\VirtualLocator.cs" />

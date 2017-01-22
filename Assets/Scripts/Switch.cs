@@ -40,16 +40,14 @@ public class Switch : MonoBehaviour {
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            InteractableText.Hide();
-        }
-    }
 
     IEnumerator TurnOn()
     {
+        Collider[] cols = GetComponents<Collider>();
+        cols[0].enabled = false;
+        cols[1].enabled = false;
+
+        InteractableText.Hide();
         trigger1.GetComponent<Collider>().enabled = false;
         aud.PlayOneShot(SoundLib.Find("unlock"));
         finalDoor.locked = false;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class FinalDoor : MonoBehaviour {
 
@@ -55,6 +56,13 @@ public class FinalDoor : MonoBehaviour {
             Camera.main.GetComponent<Animator>().SetTrigger("Bloom");
             GameObject.FindGameObjectWithTag("Player").GetComponent<UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController>().enabled = false;
             GameObject.FindGameObjectWithTag("IngameUI").SetActive(false);
+            StartCoroutine("GameOver");
         }
+    }
+
+    IEnumerator GameOver()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadSceneAsync("_Ending");
     }
 }

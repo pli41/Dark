@@ -37,6 +37,9 @@ public class SwitchDoor : MonoBehaviour {
         else
         {
             aud.PlayOneShot(SoundLib.Find("openWoodDoor"));
+            Collider[] cols = GetComponents<Collider>();
+            cols[0].enabled = false;
+            cols[1].enabled = false;
             InteractableText.Hide();
             Destroy(gameObject, 1f);
         }

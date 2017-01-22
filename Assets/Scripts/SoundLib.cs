@@ -44,7 +44,9 @@ public class SoundLib : MonoBehaviour {
     public AudioClip receiveWave;
 
     public AudioClip never;
+    public AudioClip getOut;
 
+    public AudioClip thunder;
     void Start()
     {
         PopulateDict();
@@ -90,6 +92,8 @@ public class SoundLib : MonoBehaviour {
         soundDict.Add("sendWave", sendWave);
         soundDict.Add("receiveWave", receiveWave);
         soundDict.Add("never", never);
+        soundDict.Add("getOut", getOut);
+        soundDict.Add("thunder", thunder);
     }
 
     // Update is called once per frame
